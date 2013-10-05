@@ -65,7 +65,7 @@ Adding to your HTML file:
     });
 
     // Demonstration of most of options.
-    httpinvoke('https://rawgithub.com/jakutis/httpinvoke/master/package.json', 'GET', {
+    httpinvoke('https://raw.github.com/jakutis/httpinvoke/master/package.json', 'GET', {
         outputType: 'json',
         converters: {
             'text json': JSON.parse
